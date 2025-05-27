@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/step-component/static/css/main.b4342cd1.css",
+    "main.js": "/step-component/static/js/main.04e5abf6.js",
+    "index.html": "/step-component/index.html",
+    "main.b4342cd1.css.map": "/step-component/static/css/main.b4342cd1.css.map",
+    "main.04e5abf6.js.map": "/step-component/static/js/main.04e5abf6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4342cd1.css",
+    "static/js/main.04e5abf6.js"
+  ]
+}
