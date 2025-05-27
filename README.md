@@ -1,18 +1,23 @@
-# Component Interaction & State Management in React
+# Step Component – React Project
 
-This project is a hands-on React page designed to reinforce core concepts in modern front-end development. It focuses on handling events, managing state, rendering conditionally, and creating reusable components with `children` props.
+This is a simple and interactive **Step Component** built with React. It allows users to navigate through steps one at a time, showcasing clean component structure and core React concepts in action.
 
 ## 📋 Table of Contents
 
 - [Overview](#overview)
-- [Key Features](#key-features)
-- [What I Learned](#what-i-learned)
-- [Built With](#built-with)
-- [Getting Started](#getting-started)
+  - [The Challenge](#the-challenge)
+  - [Key Features](#key-features)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Useful Resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## 📝 Overview
+
+### The Challenge
 
 This is a simple yet powerful React component showcasing:
 
@@ -23,27 +28,25 @@ This is a simple yet powerful React component showcasing:
 
 It serves as a learning playground for essential React features and a reference for future projects.
 
-## 🚀 Key Features
+### 🚀 Key Features
 
-- Handle user interactions via **event listeners**
-- Use `useState` to track and update component state
-- Implement **conditional rendering** to display content dynamically
-- Reuse components via the **`children` prop**
-- Update state based on its **current value** (functional updates)
-- Apply **React Hooks** for clean and efficient logic
+- Navigate through steps using "Next" and "Previous" buttons
+- Dynamically display step content based on state
+- Reusable components using `children` prop
+- Responsive layout with clean UI
 
-## 📚 What I Learned
+### Screenshot
 
-This project helped me understand and practice the following:
+![Screenshot of Step Component](./Screenshot%20Step%20Component.png)
 
-1. **Handling Events** – I learned to manage user inputs and actions using `onClick`, `onChange`, and other DOM events.
-2. **Working with State** – Using the `useState` hook to store and update dynamic data in functional components.
-3. **Conditional Rendering** – Displaying different UI elements based on application state with logical and ternary expressions.
-4. **Using Hooks** – Gained practical experience with `useState` and functional updates.
-5. **Updating State Based on Current State** – Ensured state updates are accurate using callback functions inside `setState`.
-6. **The `children` Prop** – Increased component reusability by rendering nested elements passed from parent components.
+### Links
 
-## 🛠️ Built With
+- Solution URL: [GitHub Repository](https://github.com/MaddiePst/step-component)
+- Live Site URL: [Live Demo](https://maddiepst.github.io/step-component/)
+
+## My Process
+
+### 🛠️ Built With
 
 - React (with Hooks)
 - JavaScript (ES6+)
@@ -52,22 +55,25 @@ This project helped me understand and practice the following:
 - Visual Studio Code
 - Git & GitHub
 
-## 🧑‍💻 Getting Started
+### 🧠 What I Learned
 
-To run the project locally:
+This project helped me solidify essential React concepts:
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-npm install
-npm start
-👩‍🎨 Author
-Portfolio: maddiepst.github.io
+1. **Handling Events** – Responding to button clicks and updating UI accordingly.
+2. **State Management** – Using `useState` to track and update the current step.
+3. **Conditional Rendering** – Showing/hiding elements based on state.
+4. **Working with Hooks** – Leveraging the `useState` hook to manage dynamic behavior.
+5. **Updating State Based on Previous State** – Using functional updates to ensure accurate state transitions.
+6. **The `children` Prop** – Building reusable, flexible components that can accept dynamic content.
 
-GitHub: @MaddiePst
+### Useful resources
 
-LinkedIn: Madalina Pastiu
+- [React Docs](https://react.dev/learn) - Official React documentation and concepts
+- [MDN Web Docs](https://developer.mozilla.org/) - HTML, CSS, and JavaScript reference
 
-🙏 Acknowledgments
-Thanks to the React docs and online communities that helped reinforce the foundational knowledge used in this project. Special appreciation to educational platforms like Udemy and Frontend Mentor for their practical resources.
-```
+## Author
+
+- Website: [Madalina Pastiu Portfolio](https://maddiepst.github.io/)
+- LinkedIn: [Madalina Pastiu](https://www.linkedin.com/in/madalina-pastiu-52a01396/)
+- GitHub: [@maddiepst](https://github.com/MaddiePst)
+
